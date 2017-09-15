@@ -1,6 +1,6 @@
 #Email Gulper
 
-A simple Gulp task to integrate SASS with HTML emails
+Includes a simple Gulp task to integrate SASS with HTML emails
 
 Two HTML files are created:
 
@@ -10,5 +10,9 @@ Two HTML files are created:
 Installation:
 
 `npm install`
+
+`gulp inline`
+
+Run Browser Sync and Watch Files:
 
 `gulp serve`

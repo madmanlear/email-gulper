@@ -16,7 +16,7 @@
           <table id="container" cellpadding="0" cellspacing="0" width="640">
             <tbody>
               <td>
-                <p>Content</p>
+                <p><?php echo 'Content'; ?></p>
               </td>
             </tbody>
           </table>

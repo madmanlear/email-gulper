@@ -1,14 +1,14 @@
 {
-  "name": "hooters-website",
+  "name": "email-gulper",
   "version": "0.1.0",
   "licence": "UNLICENCED",
   "private": "true",
-  "description": "Hooters Website",
+  "description": "Gulp tasks for building HTML emails with modern dev tools",
   "repository": {
     "type": "git",
-    "url": "https://github.com/themorrisonagency/hooters-website.git"
+    "url": "https://github.com/madmanlear/email-gulper.git"
   },
-  "author": "Morrison Agency",
+  "author": "Chris Davis",
   "scripts": {
     "test": "gulp test"
   },
@@ -19,7 +19,10 @@
     "gulp-concat": "^2.6.0",
     "gulp-inline-css": "^3.1.0",
     "gulp-inline-source": "^3.0.0",
+    "gulp-php2html": "^0.3.2",
     "gulp-sass": "^2.3.2",
+    "inline-css": "git+https://github.com/madmanlear/inline-css.git",
+    "ngrok": "^2.2.9",
     "path": "^0.12.7"
   }
 }
